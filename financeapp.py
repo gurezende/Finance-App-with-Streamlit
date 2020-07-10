@@ -13,7 +13,7 @@ import plotly.graph_objs as go
 from PIL import Image
 
 # Header Image
-image=Image.open('jpeg2.jpg')
+image=Image.open('jpeg2.JPG')
 st.image(image,width=600)
 
 # Title of the Project
