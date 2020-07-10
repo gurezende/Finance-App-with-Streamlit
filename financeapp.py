@@ -32,7 +32,7 @@ df_year = df_hist.iloc[:,1:14]
 # Creating the Sidebar
 st.sidebar.header('User Input Feature')
 st.sidebar.markdown('''
-[Example CSV input File](https://github.com/gurezende/Finance-App-with-Streamlit.git)''')
+[Example CSV input File](https://github.com/gurezende/Finance-App-with-Streamlit/blob/master/finance_test.csv)''')
 
 # Getting user's input file
 uploaded_file = st.sidebar.file_uploader('Upload your input CSV file here', type=['csv'])
