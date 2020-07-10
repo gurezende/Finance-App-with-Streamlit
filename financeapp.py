@@ -10,8 +10,6 @@ import pickle
 #Graphics
 import plotly.offline as pyo
 import plotly.graph_objs as go
-import matplotlib.pyplot as plt
-import seaborn as sns
 from PIL import Image
 
 # Header Image
