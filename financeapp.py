@@ -8,6 +8,7 @@ import streamlit as st
 # Load ML model
 import pickle
 #Graphics
+import matplotlib.pyplot as plt
 import plotly.offline as pyo
 import plotly.graph_objs as go
 from PIL import Image
