@@ -34,7 +34,6 @@ df_year = df_hist.iloc[:,1:14]
 st.sidebar.header('User Input Feature')
 st.sidebar.markdown('''
 [Example CSV input File](https://github.com/gurezende/Finance-App-with-Streamlit.git)''')
-st.text('App by Gustavo R Santos')
 
 # Getting user's input file
 uploaded_file = st.sidebar.file_uploader('Upload your input CSV file here', type=['csv'])
@@ -117,5 +116,7 @@ if uploaded_file is not None:
 
     st.dataframe(predictions.style.background_gradient(cmap='BuGn'))
     #st.write(predictions)
+    st.sidebar.text('App by Gustavo R Santos')
 else:
     st.markdown('# Please load your Forecast File to start')
+    st.sidebar.text('App by Gustavo R Santos')
